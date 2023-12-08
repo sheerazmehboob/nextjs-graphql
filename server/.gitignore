@@ -1,27 +1,29 @@
-# Directories
-/node_modules
-dist/
-coverage/
+# Dependency directories
+node_modules/
 
-# Logs
+# Environment variables
+#.env
+
+# package-lock.json
+package-lock.json
+
+# Log files
 logs/
 *.log
 
-# Environment variables
-# .env
-
-# Dependency lock files
-package-lock.json
-yarn.lock
+# Built files
+dist/
+build/
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Editor specific files
+# IDE or editor specific files
 .vscode/
+.idea/
 *.sublime-project
 *.sublime-workspace
 
-# Build files
-/build/
+# npm debugging logs
+npm-debug.log*
